@@ -16,7 +16,7 @@ function log_all() {
 };
 
 function user_login() {
-    var url = 'https://ncc2c.toolforge.org//api/auth/user';
+    var url = 'https://ncc2c.toolforge.org/api/auth/user';
 
     jQuery.ajax({
         async: true,

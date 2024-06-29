@@ -6,7 +6,7 @@ function setAuthorizedUser(username) {
 }
 
 function user_login() {
-    var url = 'https://ncc2c.toolforge.org//api/auth/user';
+    var url = 'https://ncc2c.toolforge.org/api/auth/user';
     if (window.location.hostname == 'localhost') {
         setAuthorizedUser("Mr. Ibrahem");
         return;

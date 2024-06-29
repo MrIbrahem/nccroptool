@@ -16,7 +16,7 @@ function header_nav_tag($title="title", $page='', $log_lis='') {
     $login_logout_lis = <<<HTML
         <li class="nav-item col col-lg-auto dropdown">
             <div id="user_login" class="navbar-text">
-                <a href="https://ncc2c.toolforge.org//api/auth/login"><i class="fas fa-sign-in-alt fa-sm fa-fw mr-2"></i> Login</a>
+                <a href="https://ncc2c.toolforge.org/api/auth/login"><i class="fas fa-sign-in-alt fa-sm fa-fw mr-2"></i> Login</a>
             </div>
         </li>
         <li class="nav-item col col-lg-auto dropdown">
@@ -26,7 +26,7 @@ function header_nav_tag($title="title", $page='', $log_lis='') {
         </li>
         <li class="nav-item col col-lg-auto dropdown">
             <div id="user_logout" class="navbar-text" style="display:none">
-                <span> </span> <a href="https://ncc2c.toolforge.org//api/auth/logout"> <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2"></i></a>
+                <span> </span> <a href="https://ncc2c.toolforge.org/api/auth/logout"> <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2"></i></a>
             </div>
         </li>
     HTML;
