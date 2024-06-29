@@ -1,4 +1,4 @@
-## CropTool for nccommons.org
+## CropTool + Multi CropTool for nccommons.org
 * [Change I made to the code.](https://github.com/MrIbrahem/nccroptool/pull/2/files)
 
 ```
