@@ -3,7 +3,30 @@
 
 ### install
 
-- Run `toolforge build start <public link to repo>`
-- Run `toolforge webservice --backend=kubernetes --mount=all buildservice start`
-- Copy `config.prod.ini` into the home directory, and add OAuth information
-- Creates a `public_files` directory in the home directory and set it to be readable and writable by others
+
+```
+rm -rf croptool
+git clone https://github.com/danmichaelo/croptool.git
+cp -rn croptool/* .
+```
+
+```
+npm install
+```
+
+```
+webservice --backend=kubernetes php8.2 shell
+composer install
+```
+
+```
+npx gulp build
+
+docker compose run phpfpm php generate-key.php
+
+exit
+```
+
+```
+webservice --backend=kubernetes php8.2 start
+```
