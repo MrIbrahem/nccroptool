@@ -1,7 +1,9 @@
 
 function setAuthorizedUser(username) {
-    var text = 'Authorized as <span id="username" style="color:blue;">' + username + '</span>';
-    $('#user_login').html(text);
+    $('#user_login').hide();
+    $('#username').html(username);
+    $('#user_li').show();
+    $('#user_logout').show();
     sessionStorage.setItem('username', username);
 }
 
@@ -24,3 +26,7 @@ function user_login() {
     });
 
 };
+
+$(document).ready(function () {
+    user_login();
+});
