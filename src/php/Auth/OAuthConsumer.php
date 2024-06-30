@@ -22,7 +22,7 @@ class OAuthConsumer implements AuthServiceInterface
      */
     protected $mwOAuthUrl = 'https://nccommons.org/w/index.php?title=Special:OAuth';
 
-    protected $callbackUrl = 'https://ncc2c.toolforge.org/api/auth/callback';
+    protected $callbackUrl = 'https://nccroptool.toolforge.org/api/auth/callback';
 
     /**
      * The interwiki prefix for the OAuth central wiki.
