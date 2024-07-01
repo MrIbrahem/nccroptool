@@ -117,7 +117,7 @@ class File implements FileInterface
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 
         curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            'User-Agent: CropTool/1.0 (https://ncc2c.toolforge.org)',
+            'User-Agent: CropTool/1.0 (https://nccroptool.toolforge.org)',
         ]);
 
         // this function is called by curl for each header received
